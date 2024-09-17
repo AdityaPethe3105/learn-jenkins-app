@@ -26,9 +26,7 @@ pipeline {
         stage('Test'){
             agent {
                 docker{
-                   sh '''docker build -t username/${image_name}:${image_tag} 
-              docker tag username/${image_name}:${image_tag} ${image_name}:${image_tag}
-              ''' 
+                   image 'node: 18-alpine'
                    reuseNode true
                     
                 }
