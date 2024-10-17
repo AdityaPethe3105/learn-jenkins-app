@@ -85,7 +85,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://genuine-chimera-dc9428.netlify.app/'
+                CI_ENVIRONMENT_URL = 'STAGING_URL_TO_BE_SET'
             }
 
             steps {
