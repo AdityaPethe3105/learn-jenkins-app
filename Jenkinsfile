@@ -124,7 +124,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'YOUR NETLIFY URL'
+                CI_ENVIRONMENT_URL = 'https://genuine-chimera-dc9428.netlify.app/'
             }
 
             steps {
